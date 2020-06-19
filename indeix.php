@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+	<h1>Hola</h1>
 	<form method="post">
 		<input type="text" placeholder="name" name="nombre" required="">
 		<input type="email" placeholder="correo" name="email" required="">
