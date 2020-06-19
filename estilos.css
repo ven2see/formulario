@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+
+body {
+	background: #ededed;
+}
+
+form {
+	width: 700px;
+	margin: auto;
+	background: #8bf;
+	margin-top: 100px;
+	border: none;
+}
+
+input {
+	margin: 15px;
+	padding: 8px;
+	width: 664px;
+	font-size: 18px;
+	border: none;
+}
+
+input[type="submit"] {
+	margin-bottom: 10px;
+}
+
+textarea {
+	margin: 12px;
+	padding: 8;
+	font-size: 18px;
+	min-width: 640px;
+	max-width: 640px;
+	min-height: 100px;
+	max-height: 200px;
+	margin-bottom: 5px;
+}
