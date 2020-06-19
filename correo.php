@@ -25,7 +25,7 @@
  $email = $_POST['email'];
 
  $header = "enviado de teiodomd";
- $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre
+ $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
 
  mail($destinatario, $asunto, $mensajeCompleto, $header);
  echo "<script>alert('correo enviado extitoda')</script>";
